@@ -50,7 +50,7 @@ CPU reset.
 ```
 
 ## Debugging and Tracing AUX Packets
-For tracing transmitted and received AUX packets, one can attach the TX/RX pins of a common USB-TTL PL2303TA 3.3V cable to e.g.
+For tracing transmitted and received AUX packets attach the TX/RX pins of USB-TTL PL2303TA 3.3V cable to
 pins 0 and 1 of the MCU. The MCU uses soft serial communication for that purpose and the USART communication is already occupied for the AUX
 communication. In addition make sure the [PlatformIO](https://platformio.org/) config file platformio.ini contains *build_flags = '-DAUX_DEBUG'*, that is,
 ```
