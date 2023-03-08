@@ -12,7 +12,7 @@ Based on the excellent [NexStar AUX Command Set](https://github.com/tstibor/usba
 an USB ⇆ AUX relay is developed. The circuit (50k resistor and 1N4148 diode) is explained in 1) and also depicted in 2)
 and emulates a Tri-State logic.
 
-The used microcontroller in this DIY project is a [Seeed Studio XIAO SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/)
+The used microcontroller in this project is a [Seeed Studio XIAO SAMD21](https://wiki.seeedstudio.com/Seeeduino-XIAO/)
 ARM Cortex-M0+ 32bit 48MHz microcontroller(SAMD21G18) with 256KB Flash, 32KB SRAM and Arduino library compatible.
 
 The final USB ⇆ Nexstar AUX relay dongle is depicted below:
@@ -49,9 +49,9 @@ done in 0.036 seconds
 CPU reset.
 ```
 
-## Debugging and Tracing AUX Packets
+## Tracing AUX Packets
 For tracing transmitted and received AUX packets attach the TX/RX pins of USB-TTL PL2303TA 3.3V cable to
-pins 0 and 1 of the MCU. The MCU uses soft serial communication for that purpose and the USART communication is already occupied for the AUX
+pins 0 and 1 of the MCU. The MCU uses soft serial communication for tracing as the USART communication is already occupied for the AUX
 communication. In addition make sure the [PlatformIO](https://platformio.org/) config file platformio.ini contains *build_flags = '-DAUX_DEBUG'*, that is,
 ```
 [platformio]
