@@ -5,7 +5,7 @@
 
 ## Control Celestron Mounts via AUX Protocol (without Handcontrol)
 Based on the excellent [NexStar AUX Command Set](https://github.com/tstibor/usbauxrelay/blob/main/doc/NexStar_AUX_Commands_10.pdf) documentation and previous projects
-1) [NexStar Direct Telescope Mount Control](https://sites.google.com/site/wayneholder/nexstar-direct-telescope-mount-control)
+1) [NexStar Direct Telescope Mount Control](https://github.com/tstibor/usbauxrelay/blob/main/doc/nexstar_direct_telescope_mount_control.pdf)
 2) [An Arduino-based controller for Celestron CG5-series equatorial mounts](https://github.com/juanmb/nextdriver/)
 3) [Homebrew Mount-USB Connection for AUX-Port](https://www.cloudynights.com/topic/812944-homebrew-mount-usb-connection-for-aux-port/)
 
